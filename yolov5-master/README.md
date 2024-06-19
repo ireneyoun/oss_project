@@ -1,7 +1,3 @@
-### ref
-1. [Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
-2. 파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
-=======
 <div align="center">
   <p>
     <a href="http://www.ultralytics.com/blog/ultralytics-yolov8-turns-one-a-year-of-breakthroughs-and-innovations" target="_blank">
