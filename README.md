@@ -178,3 +178,8 @@
     - 감지된 객체를 영상 위에 표시하여 시각적 확인 가능
 
 ----------
+### ref
+1.	[Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
+2.	파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
+![image](https://github.com/ireneyoun/oss_project/assets/165630285/4506328c-9955-40c7-ab2f-076e0ed98cad)
+
