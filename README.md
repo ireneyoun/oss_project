@@ -129,10 +129,19 @@
 <img width="600" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/1aae9d95-5b0b-415d-8596-81ae5fc32a7f">
 </p>
 
-1.	라벨링
-    - 데이터 증강(Augmentation) 기능을 통해 모델 학습에 필요한 데이터를 변형
+2. 라벨링
+   
+- 데이터 증강(Augmentation)
+  
+    - 모델 학습에 필요한 데이터를 변형
       
-    - robflow의 효과적인 라벨링 도구를 사용하여 데이터셋을 쉽게 라벨링
+- robflow의 효과적인 라벨링 도구를 사용
+  
+    - 객체의 바운딩 박스를 지정하고, 라벨을 추가하여 효율적으로 데이터셋을 준비
+
+<p align="center">
+<img width="600" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/fefd994d-8f8e-4729-8987-f8a116fe4875">
+</p>
       
 2.	데이터셋 처리
 
