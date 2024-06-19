@@ -6,7 +6,7 @@
     
     - 영상 기반 이상행동 종류 분류 모델 자료 수집 및 학습
 
-:scream_cat: 2210801 선영주
+:smile_cat: 2210801 선영주
 
     - 이메일 알림 발송 모듈 설계 및 개발
 
@@ -19,8 +19,6 @@
     - 영상 기반 이상행동 감지
 
     - 학습된 모델 성능 평가 (영상)
-    
-:smile_cat: 2311905 제혜림
 
 ## GitHub ID
 |<img src="https://avatars.githubusercontent.com/u/144865717?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/165630285?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/165617182?v=4" width="150" height="150"/>|
