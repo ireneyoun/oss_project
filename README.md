@@ -171,6 +171,10 @@
   
 4. 결과 시각화
     - 감지된 객체를 영상 위에 표시하여 시각적 확인 가능
+  
+python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
+
+python detect.py --source vidio.mp4 --weights yolo5s_fight.onnx
 
 ----------
 ### ref
