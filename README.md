@@ -1,8 +1,7 @@
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=shark&color=0:f0d1d1,100:d6edff&height=240&text=세상을%20바꾸는%20고양이%20🐈&animation=fadeIn&fontColor=000000&fontSize=60" />
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:f0d1d1,100:d6edff&height=240&text=세상을%20바꾸는%20고양이%20🐈&animation=fadeIn&fontColor=000000&fontSize=60" />
     </div>
     
-
 # SMWU 24-1 오픈소스프로그래밍 기말 프로젝트
 
 :heart_eyes_cat: 2313621 윤다연
