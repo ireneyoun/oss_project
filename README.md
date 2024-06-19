@@ -197,9 +197,15 @@
 4. 결과 시각화
     - 감지된 객체를 영상 위에 표시하여 시각적 확인 가능
   
-python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
+### test용 비디오
+https://drive.google.com/drive/folders/1sgaSJWEwlKMIIOLRbBqDNCZCqqHvQPhy?usp=sharing
 
-python detect.py --source vidio.mp4 --weights yolo5s_fight.onnx
+: 해당 링크에 있는 비디오를 다운 받아 yolov5-master 폴더 안에 저장한 후 테스트 가능
+
+python detect_update.py --source vidio.mp4 --weights yolo5s_fight.onnx
+
+  
+python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
 
 ----------
 ### ref
