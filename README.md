@@ -105,14 +105,30 @@
 
       https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71550
 
+<p align="center">
+<img width="900" alt="스크린샷 2024-06-20 03 20 06" src="https://github.com/ireneyoun/oss_project/assets/165630285/a55cf3f8-b758-4c8c-ac74-e3e0238ea975">
+</p>
+
 -----------
 ### 데이터 전처리
 - OpenCV를 이용한 비디오 처리 및 객체 추적을 활용
+
+- Roboflow를 통해 데이터셋을 모델 학습에 적합한 형식으로 자동 변환
 
 #### 목표
 : 비디오와 해당 XML 라벨을 처리
 
 #### 주요 기능
+1. 비디오 전처리
+ 
+    - OpenCV 사용하여 디오 파일을 프레임 단위로 이미지를 추출하고 저장
+
+    - 각 프레임을 이미지 파일로 저장
+
+<p align="center">
+<img width="600" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/1aae9d95-5b0b-415d-8596-81ae5fc32a7f">
+</p>
+
 1.	라벨링
     - 데이터 증강(Augmentation) 기능을 통해 모델 학습에 필요한 데이터를 변형
       
