@@ -212,10 +212,10 @@
          python detect_update.py --source test.mp4 --weights yolo5s_fight.onnx
 
 2. 웹캠으로 테스트
-   - github 소스를 다운 받은 후 yolo5s_fight.onnx 파일을 yolov5-master 폴더 안에 넣고 위의 test용 비디오를 yolov5-master 폴더 안에 저장.
+   - github 소스를 다운 받은 후 yolo5s_fight.onnx 파일을 yolov5-master 폴더 안에 저장.
    - Anaconda prompt에서 밑에 나와있는 코드를 입력하면 실행 가능
    
-         python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
+         python detect_update.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
 
 ----------
 ## ref
