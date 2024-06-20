@@ -128,11 +128,11 @@
    
  - labellmg (https://github.com/HumanSignal/labelImg) 을 사용하여 라벨링
 
-   – 각 이미지에 대한 바운딩 박스를 지정하고 그 바운딩 박스에 대한 정보가 담긴 txt 파일 생성
+    - 각 이미지에 대한 바운딩 박스를 지정하고 그 바운딩 박스에 대한 정보가 담긴 txt 파일 생성
    
 - Roboflow 사용
 
-  – 이미지와 txt 파일을 roboflow에 올려 train 데이터와 test 데이터 분류
+    - 이미지와 txt 파일을 roboflow에 올려 train 데이터와 test 데이터 분류
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/fefd994d-8f8e-4729-8987-f8a116fe4875">
