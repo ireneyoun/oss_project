@@ -110,7 +110,7 @@
 ### 주요 기능
 1. 비디오 전처리
  
-    - OpenCV 사용하여 디오 파일을 프레임 단위로 이미지를 추출하고 저장
+    - OpenCV를 사용하여 비디오 파일로부터 프레임 단위로 이미지를 추출하고 저장
 
     - 각 프레임을 이미지 파일로 저장
 
@@ -197,6 +197,7 @@
 -----------
 ## 실행 방법
 test용 비디오
+
 🔗 https://drive.google.com/drive/folders/1sgaSJWEwlKMIIOLRbBqDNCZCqqHvQPhy?usp=sharing
 
 : 해당 링크에 있는 비디오를 다운 받아 yolov5-master 폴더 안에 저장한 후 테스트 가능
