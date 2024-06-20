@@ -30,7 +30,7 @@
 |윤다연<br/>[@ireneyoun](https://github.com/ireneyoun)|선영주<br/>[@dudwntjs](https://github.com/dudwntjs)|송민지<br/>[@ssong721](https://github.com/ssong721)|
 
 -----------
-### 개요 및 개발 필요성
+# 개요 및 개발 필요성
 - 기술개발 배경
 
     - 현대 사회에서 범죄율 증가와 안전에 대한 우려가 높아짐에 따라, 보다 효과적인 보안 시스템의 필요성이 증대되고 있음.
@@ -73,7 +73,7 @@
     - 실시간 데이터 분석 및 개발 경험을 통한 우수 개발 인력 양성
 
 -----------
-### 개발환경
+# 개발환경
 - Python 3.x
   
 - OpenCV(cv2)
@@ -100,7 +100,7 @@
     - ONNX 모델을 로드하고, 입력 데이터를 모델에 전달하여 추론 결과를 반환
 
 -----------
-### 데이터셋
+# 데이터셋
 - 사람 이상 행동 데이터
 
     - 바운딩 박스로 라벨링이 되어 있음
@@ -114,15 +114,15 @@
 </p>
 
 -----------
-### 데이터 전처리
+# 데이터 전처리
 - OpenCV를 이용한 비디오 처리 및 객체 추적을 활용
 
 - Roboflow를 통해 데이터셋을 모델 학습에 적합한 형식으로 자동 변환
 
-#### 목표
+### 목표
 : 비디오와 해당 XML 라벨을 처리
 
-#### 주요 기능
+### 주요 기능
 1. 비디오 전처리
  
     - OpenCV 사용하여 디오 파일을 프레임 단위로 이미지를 추출하고 저장
@@ -147,29 +147,31 @@
 <img width="600" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/fefd994d-8f8e-4729-8987-f8a116fe4875">
 </p>
       
-2.	데이터셋 처리
+3.	데이터셋 처리
 
     - XML 파일 디렉토리 내의 모든 XML 파일을 처리하여 관련 비디오 파일 추적 및 분류
       
-3.	객체 추적기 초기화
+4.	객체 추적기 초기화
 
     - CSRT(CSR-DCF) 객체 추적기를 초기화하여 객체를 추적
       
-4.	바운딩 박스
+5.	바운딩 박스
     - 객체 추적기를 사용하여 영상에서 객체의 위치를 추적하고 바운딩 박스 생성
+  
+    - 객체 위치를 시각적으로 표시하여, 이상 행동 감지에 활용
 
 -----------
-### 모델 학습
+# 모델 학습
 - Yolov5를 구현하고 Roboflow를 사용하여 데이터셋을 관리
   
     - Yolov5 : 실시간 객체 감지를 위한 딥러닝 프레임워크
       
     - Roboflow : 데이터셋 관리 및 전처리 도구
 
-#### 목표
+### 목표
 : Yolov5와 Roboflow를 사용하여 객체 탐지 모델을 쉽게 학습시키고, 다양한 플랫폼에서 사용할 수 있도록 ONNX 포맷으로 변환
 
-#### 주요 기능
+### 주요 기능
 1. Yolov5 설치 및 설정
     - Yolov5 GitHub 저장소를 클론하고 필요한 라이브러리를 설치
 
@@ -181,6 +183,12 @@
   
 4. 모델 평가
     - 학습된 모델을 사용하여 이미지에서 객체를 탐지하고 결과를 시각화
+
+<figure class="half">
+             <p align="center"><a href="link"><img width="300" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/21ec9d97-f0ab-4261-bced-a1fd0c708157">
+ <a href="link"><img width="300" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/b52d9949-03e1-481c-b259-49c53d26a826">
+ </figure>
+</p>
 
 5. ONNX 변환
     -  학습된 모델을 ONNX 포맷으로 변환
@@ -215,3 +223,6 @@ python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
 ### ref
 1.	[Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
 2.	파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
+3. 2024-1. 오픈소스 프로그래밍 강의교안
+4. 숙명여자대학교 인공지능공학부 김병규 교수님, https://github.com/hopeof-Greatmind/Object-Detection-Yolov5s_custumizedtraining
+
