@@ -30,7 +30,7 @@
 |윤다연<br/>[@ireneyoun](https://github.com/ireneyoun)|선영주<br/>[@dudwntjs](https://github.com/dudwntjs)|송민지<br/>[@ssong721](https://github.com/ssong721)|
 
 -----------
-# 개요 및 개발 필요성
+## 개요 및 개발 필요성
 - 기술개발 배경
 
     - 현대 사회에서 범죄율 증가와 안전에 대한 우려가 높아짐에 따라, 보다 효과적인 보안 시스템의 필요성이 증대되고 있음.
@@ -73,7 +73,7 @@
     - 실시간 데이터 분석 및 개발 경험을 통한 우수 개발 인력 양성
 
 -----------
-# 개발환경
+## 개발환경
 - Python 3.x
   
 - OpenCV(cv2)
@@ -114,7 +114,7 @@
 </p>
 
 -----------
-# 데이터 전처리
+## 데이터 전처리
 - OpenCV를 이용한 비디오 처리 및 객체 추적을 활용
 
 - Roboflow를 통해 데이터셋을 모델 학습에 적합한 형식으로 자동 변환
@@ -161,7 +161,7 @@
     - 객체 위치를 시각적으로 표시하여, 이상 행동 감지에 활용
 
 -----------
-# 모델 학습
+## 모델 학습
 - Yolov5를 구현하고 Roboflow를 사용하여 데이터셋을 관리
   
     - Yolov5 : 실시간 객체 감지를 위한 딥러닝 프레임워크
@@ -194,7 +194,7 @@
     -  학습된 모델을 ONNX 포맷으로 변환
 
 -----------
-### 구현
+## 구현
 : 웹캠으로 실시간 비디오 영상을 받아 이상 행동("abnormal")을 감지하는 모델을 실행하고, 감지되면 이메일 알림을 보내는 기능을 제공
 1. 실시간 비디오
     - 웹캠을 통해 실시간으로 영상을 입력 받음
@@ -209,7 +209,7 @@
 4. 결과 시각화
     - 감지된 객체를 영상 위에 표시하여 시각적 확인 가능
   
-### test용 비디오
+## test용 비디오
 https://drive.google.com/drive/folders/1sgaSJWEwlKMIIOLRbBqDNCZCqqHvQPhy?usp=sharing
 
 : 해당 링크에 있는 비디오를 다운 받아 yolov5-master 폴더 안에 저장한 후 테스트 가능
@@ -220,7 +220,7 @@ python detect_update.py --source vidio.mp4 --weights yolo5s_fight.onnx
 python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
 
 ----------
-### ref
+## ref
 1.	[Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
 2.	파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
 3. 2024-1. 오픈소스 프로그래밍 강의교안
