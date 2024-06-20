@@ -126,13 +126,13 @@
 
 2. 라벨링
    
-- 데이터 증강(Augmentation)
-  
-    - 모델 학습에 필요한 데이터를 변형
-      
-- robflow의 효과적인 라벨링 도구를 사용
-  
-    - 객체의 바운딩 박스를 지정하고, 라벨을 추가하여 효율적으로 데이터셋을 준비
+ - labellmg (https://github.com/HumanSignal/labelImg) 을 사용하여 라벨링
+
+   – 각 이미지에 대한 바운딩 박스를 지정하고 그 바운딩 박스에 대한 정보가 담긴 txt 파일 생성
+   
+- Roboflow 사용
+
+  – 이미지와 txt 파일을 roboflow에 올려 train 데이터와 test 데이터 분류
 
 <p align="center">
 <img width="600" alt="image" src="https://github.com/ireneyoun/oss_project/assets/165630285/fefd994d-8f8e-4729-8987-f8a116fe4875">
@@ -221,7 +221,6 @@
 ## ref
 1. [Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
 2. 파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
-3. 라벨링, https://github.com/HumanSignal/labelImg
-4. 2024-1. 오픈소스 프로그래밍 강의교안 (Yolov5)
-5. 숙명여자대학교 인공지능공학부 김병규 교수님, https://github.com/hopeof-Greatmind/Object-Detection-Yolov5s_custumizedtraining
+3. 2024-1. 오픈소스 프로그래밍 강의교안 (Yolov5)
+4. 숙명여자대학교 인공지능공학부 김병규 교수님, https://github.com/hopeof-Greatmind/Object-Detection-Yolov5s_custumizedtraining
 
