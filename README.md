@@ -194,14 +194,24 @@
 4. 결과 시각화
     - 감지된 객체를 영상 위에 표시하여 시각적 확인 가능
 
-## test용 비디오
+-----------
+## 실행 방법
+test용 비디오
 🔗 https://drive.google.com/drive/folders/1sgaSJWEwlKMIIOLRbBqDNCZCqqHvQPhy?usp=sharing
 
 : 해당 링크에 있는 비디오를 다운 받아 yolov5-master 폴더 안에 저장한 후 테스트 가능
 
+1. 지정한 비디오로 테스트
+   - github 소스를 다운 받은 후 yolo5s_fight.onnx 파일을 yolov5-master 폴더 안에 넣고 위의 test용 비디오를 yolov5-master 폴더 안에 저장.
+   - Anaconda prompt에서 밑에 나와있는 코드를 입력하면 실행 가능
+   - 밑 코드에서 test.mp4 부분을 테스트하고자하는 영상의 이름으로 변경
 
-    python detect_update.py --source vidio.mp4 --weights yolo5s_fight.onnx
-  
+    python detect_update.py --source test.mp4 --weights yolo5s_fight.onnx
+
+2. 웹캠으로 테스트
+   - github 소스를 다운 받은 후 yolo5s_fight.onnx 파일을 yolov5-master 폴더 안에 넣고 위의 test용 비디오를 yolov5-master 폴더 안에 저장.
+   - Anaconda prompt에서 밑에 나와있는 코드를 입력하면 실행 가능
+   
     python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
 
 ----------
