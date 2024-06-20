@@ -217,8 +217,9 @@ test용 비디오
 
 ----------
 ## ref
-1.	[Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
-2.	파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
-3. 2024-1. 오픈소스 프로그래밍 강의교안
-4. 숙명여자대학교 인공지능공학부 김병규 교수님, https://github.com/hopeof-Greatmind/Object-Detection-Yolov5s_custumizedtraining
+1. [Python] 지능형 CCTV 만들기, https://velog.io/@supermoony/Python-%EC%A7%80%EB%8A%A5%ED%98%95-CCTV-%EB%A7%8C%EB%93%A4%EA%B8%B0
+2. 파이썬으로 email 보내기, https://hyeshin.oopy.io/ds/python/20200620_py20_python_email
+3. 라벨링, https://github.com/HumanSignal/labelImg
+4. 2024-1. 오픈소스 프로그래밍 강의교안 (Yolov5)
+5. 숙명여자대학교 인공지능공학부 김병규 교수님, https://github.com/hopeof-Greatmind/Object-Detection-Yolov5s_custumizedtraining
 
