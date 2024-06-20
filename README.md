@@ -200,9 +200,9 @@
 : 해당 링크에 있는 비디오를 다운 받아 yolov5-master 폴더 안에 저장한 후 테스트 가능
 
 
-    - python detect_update.py --source vidio.mp4 --weights yolo5s_fight.onnx
+    python detect_update.py --source vidio.mp4 --weights yolo5s_fight.onnx
   
-    - python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
+    python detect.py --weights yolo5s_fight.onnx --conf 0.4 --source 0
 
 ----------
 ## ref
