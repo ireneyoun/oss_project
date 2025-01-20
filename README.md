@@ -3,32 +3,6 @@
     </div>
     
 # SMWU 24-1 오픈소스프로그래밍 기말 프로젝트
-
-:heart_eyes_cat: 2313621 윤다연
-
-    - 이상행동 영상 데이터 수집 및 전처리
-    
-    - 영상 기반 이상행동 종류 분류 모델 자료 수집 및 학습
-
-:smile_cat: 2210801 선영주
-
-    - 이메일 알림 발송 모듈 설계 및 개발
-
-    - 웹캠 구현 및 실행
-
-:pouting_cat: 2210888 송민지
-
-    - 데이터셋 분할(훈련, 테스트, 검증 데이터셋)
-
-    - 영상 기반 이상행동 감지
-
-    - 학습된 모델 성능 평가 (영상)
-
-## GitHub ID
-|<img src="https://avatars.githubusercontent.com/u/144865717?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/165630285?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/165617182?v=4" width="150" height="150"/>|
-|:-:|:-:|:-:|
-|윤다연<br/>[@ireneyoun](https://github.com/ireneyoun)|선영주<br/>[@dudwntjs](https://github.com/dudwntjs)|송민지<br/>[@ssong721](https://github.com/ssong721)|
-
 -----------
 ## 개요 및 개발 필요성
 - 기술개발 배경
@@ -226,3 +200,9 @@
 4. 2024-1. 오픈소스 프로그래밍 강의교안 (Yolov5)
 5. 숙명여자대학교 인공지능공학부 김병규 교수님, https://github.com/hopeof-Greatmind/Object-Detection-Yolov5s_custumizedtraining
 
+----------
+
+## GitHub ID
+|<img src="https://avatars.githubusercontent.com/u/144865717?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/165630285?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/165617182?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|
+|:heart_eyes_cat:윤다연<br/>[@ireneyoun](https://github.com/ireneyoun)|:smile_cat:선영주<br/>[@dudwntjs](https://github.com/dudwntjs)|:pouting_cat:송민지<br/>[@ssong721](https://github.com/ssong721)|
